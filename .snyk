@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - grunt-node-webkit-builder > archiver > file-utils > glob > minimatch:
+        patched: '2019-06-25T00:43:32.254Z'
+    - grunt-node-webkit-builder > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2019-06-25T00:43:32.254Z'
+    - grunt-node-webkit-builder > archiver > file-utils > minimatch:
+        patched: '2019-06-25T00:43:32.254Z'
